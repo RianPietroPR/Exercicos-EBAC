@@ -4,26 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>eCommerce de venda de roupas</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Formulário</h1>
-    <form>
-        <label for="">Seu nome</label>
-        <input id="" type="text">
-        <br>
-        <label for="email">Seu e-mail</label>
-        <input id="email" type="text" >
-        <br>
-        <label for="">Sua senha</label>
-        <input type="text">
-        <br>
-        <button type="submit">
-            Enviar Formulário
-        </button>
-        <button type="reset">
-            Limpar formulário
-        </button>
-    <form>
+    <header>
+        <div class="container">
+            <h1>Venda de roupas</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Sobre">Sobre a loja</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section id="Sobre">
+        <div class="container">
+            <img src="./Imagens/loja.jpg" alt="Imagem de uma moça escolhendo roupa">
+            <div>
+                <h2>Sobre a loja</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis doloremque quaerat saepe quam maxime sequi minus rerum nam laboriosam alias nihil vero optio beatae soluta, recusandae explicabo quod cumque libero.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia libero cumque numquam qui, accusantium dolor fugit incidunt dolores, iste consequatur, provident sit ipsa esse ex hic veritatis. Explicabo, itaque error?
+                </p>
+                <ul class="listas-marcas">
+                    <li><img src="./Imagens/LV-logo.jpg" alt="Logo da Luis Viton"></li>
+                    <li><img src="./Imagens/Gucci logo.jpg" alt="Logo da Luis Gucci"></li>
+                    <li><img src="./Imagens/chanel-logo.jpg" alt="Logo da Chanel"></li>
+                    <li><img src="./Imagens/Dolce-Gabbana-Logo.png" alt="Logo da dolceGabana"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome"
+                        required>
+                        <input type="text" placeholder="Seu e-mail"required>
+                        <input type="text" placeholder="Seu telefone">
+                        <textarea placeholder="Sua mensagem"required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no instagram"></a>
+                                <img src="./Imagens/instagram.png" alt="logo do instagram">
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook"></a>
+                                <img src="./Imagens/facebook.png" alt="logo do Facebook">
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Youtube"></a>
+                                <img src="./Imagens/youtube.png" alt="logo do youtube">
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Lorem 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                Vendas de roupas - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
